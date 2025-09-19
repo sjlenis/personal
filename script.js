@@ -2,20 +2,17 @@
 const socialLinks = {
     whatsapp: "https://wa.me/573172154034", // Reemplaza con tu número de WhatsApp
     linkedin: "https://www.linkedin.com/in/juan-sebastian-lenis-acosta-877262382/", // Reemplaza con tu perfil de LinkedIn
-    facebook: "https://www.facebook.com/sebastian.lenisacosta.5" // Reemplaza con tu perfil de Facebook
 };
 
 // Configuración de archivos CV
 const cvFiles = {
-    en: "cv-juan-sebastian-lenis-english.pdf", // Nombre del archivo CV en inglés
-    es: "cv-juan-sebastian-lenis-español.pdf"  // Nombre del archivo CV en español
+    es: "Hoja de Vida.pdf"  // Nombre del archivo CV en español
 };
 
 // Función para inicializar los enlaces de redes sociales
 function initSocialLinks() {
     document.getElementById('whatsappBtn').href = socialLinks.whatsapp;
     document.getElementById('linkedinBtn').href = socialLinks.linkedin;
-    document.getElementById('facebookBtn').href = socialLinks.facebook;
 }
 
 // Función para descargar CV
